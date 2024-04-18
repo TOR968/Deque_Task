@@ -15,7 +15,7 @@ public class BrowserHistoryImplTest {
         Deque<String> backStack = new LinkedList<>();
         Deque<String> forwardStack = new LinkedList<>();
         String initialUrl = "https://codefinity.com/profile/my-home";
-        browserHistory = new BrowserHistoryImpl(backStack, forwardStack, initialUrl);
+        browserHistory = BrowserHistoryImpl.createBrowserHistoryImpl(backStack, forwardStack, initialUrl);
     }
 
     @Test
