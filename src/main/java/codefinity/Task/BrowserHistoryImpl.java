@@ -1,7 +1,5 @@
 package codefinity.Task;
 
-package codefinity.Task;
-
 import java.util.Deque;
 
 public class BrowserHistoryImpl implements BrowserHistory {
